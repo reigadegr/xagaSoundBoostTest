@@ -60,19 +60,19 @@
         <band_ieq frequency="47" target="88"/>
         <band_ieq frequency="141" target="64"/>
         <band_ieq frequency="234" target="16"/>
-        <band_ieq frequency="328" target="16"/>
+        <band_ieq frequency="328" target="24"/>
         <band_ieq frequency="469" target="32"/>
-        <band_ieq frequency="656" target="32"/>
-        <band_ieq frequency="844" target="-32"/>
+        <band_ieq frequency="656" target="48"/>
+        <band_ieq frequency="844" target="-16"/>
         <band_ieq frequency="1031" target="32"/>
         <band_ieq frequency="1313" target="48"/>
         <band_ieq frequency="1688" target="64"/>
         <band_ieq frequency="2250" target="88"/>
         <band_ieq frequency="3000" target="64"/>
-        <band_ieq frequency="3750" target="32"/>
-        <band_ieq frequency="4688" target="0"/>
-        <band_ieq frequency="5813" target="0"/>
-        <band_ieq frequency="7125" target="0"/>
+        <band_ieq frequency="3750" target="16"/>
+        <band_ieq frequency="4688" target="-16"/>
+        <band_ieq frequency="5813" target="16"/>
+        <band_ieq frequency="7125" target="24"/>
         <band_ieq frequency="9000" target="32"/>
         <band_ieq frequency="11250" target="48"/>
         <band_ieq frequency="13875" target="88"/>
@@ -1205,7 +1205,7 @@
       </endpoint_type>
     </data>
   </profile>
-  <tuning name="speaker_landscape" endpoint_type="speaker" mono_device="false" tuned_rate="96000" orientation="2" output_channels="2">
+  <tuning name="speaker_landscape" endpoint_type="speaker" mono_device="false" tuned_rate="192000" orientation="2" output_channels="2">
     <device_id id="default_internal_speaker" endpoint_port="internal_speaker"/>
     <device_id id="speaker_landscape" endpoint_port="internal_speaker"/>
     <data>
@@ -1302,7 +1302,7 @@
       <virtual-bass-compressor-tuning value="1,0,-320,96,32,28,200"/>
     </data>
   </tuning>
-  <tuning name="speaker_portrait" endpoint_type="speaker" mono_device="false" tuned_rate="96000" orientation="2" output_channels="2">
+  <tuning name="speaker_portrait" endpoint_type="speaker" mono_device="false" tuned_rate="192000" orientation="2" output_channels="2">
     <device_id id="speaker_portrait" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
@@ -1398,7 +1398,7 @@
       <virtual-bass-compressor-tuning value="1,0,-320,96,32,28,200"/>
     </data>
   </tuning>
-  <tuning name="headphone" endpoint_type="headphone" mono_device="false" tuned_rate="192000" orientation="2" output_channels="2">
+  <tuning name="headphone" endpoint_type="headphone" mono_device="false" tuned_rate="384000" orientation="2" output_channels="2">
     <device_id id="default_headphone" endpoint_port="headphone"/>
     <device_id id="default_bluetooth" endpoint_port="bluetooth"/>
     <device_id id="default_usb" endpoint_port="usb"/>
