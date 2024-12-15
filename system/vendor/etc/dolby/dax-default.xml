@@ -57,26 +57,26 @@
   <preset id="ieq_warm" type="ieq">
     <data>
       <ieq-bands>
-        <band_ieq frequency="47" target="88"/>
-        <band_ieq frequency="141" target="64"/>
-        <band_ieq frequency="234" target="16"/>
+        <band_ieq frequency="47" target="72"/>
+        <band_ieq frequency="141" target="88"/>
+        <band_ieq frequency="234" target="56"/>
         <band_ieq frequency="328" target="24"/>
         <band_ieq frequency="469" target="32"/>
         <band_ieq frequency="656" target="48"/>
-        <band_ieq frequency="844" target="-16"/>
-        <band_ieq frequency="1031" target="32"/>
-        <band_ieq frequency="1313" target="48"/>
-        <band_ieq frequency="1688" target="64"/>
-        <band_ieq frequency="2250" target="88"/>
-        <band_ieq frequency="3000" target="64"/>
-        <band_ieq frequency="3750" target="16"/>
-        <band_ieq frequency="4688" target="-16"/>
-        <band_ieq frequency="5813" target="16"/>
-        <band_ieq frequency="7125" target="24"/>
-        <band_ieq frequency="9000" target="32"/>
-        <band_ieq frequency="11250" target="48"/>
-        <band_ieq frequency="13875" target="88"/>
-        <band_ieq frequency="19688" target="64"/>
+        <band_ieq frequency="844" target="16"/>
+        <band_ieq frequency="1031" target="72"/>
+        <band_ieq frequency="1313" target="64"/>
+        <band_ieq frequency="1688" target="96"/>
+        <band_ieq frequency="2250" target="128"/>
+        <band_ieq frequency="3000" target="88"/>
+        <band_ieq frequency="3750" target="64"/>
+        <band_ieq frequency="4688" target="12"/>
+        <band_ieq frequency="5813" target="48"/>
+        <band_ieq frequency="7125" target="72"/>
+        <band_ieq frequency="9000" target="64"/>
+        <band_ieq frequency="11250" target="88"/>
+        <band_ieq frequency="13875" target="128"/>
+        <band_ieq frequency="19688" target="96"/>
       </ieq-bands>
     </data>
   </preset>
@@ -1210,26 +1210,26 @@
     <device_id id="speaker_landscape" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="168" gain_right="168"/>
-        <band_optimizer frequency="141" gain_left="188" gain_right="188"/>
-        <band_optimizer frequency="234" gain_left="128" gain_right="136"/>
-        <band_optimizer frequency="328" gain_left="120" gain_right="128"/>
-        <band_optimizer frequency="469" gain_left="128" gain_right="136"/>
-        <band_optimizer frequency="656" gain_left="158" gain_right="158"/>
-        <band_optimizer frequency="844" gain_left="79" gain_right="79"/>
-        <band_optimizer frequency="1031" gain_left="125" gain_right="120"/>
-        <band_optimizer frequency="1313" gain_left="128" gain_right="125"/>
-        <band_optimizer frequency="1688" gain_left="136" gain_right="128"/>
-        <band_optimizer frequency="2250" gain_left="148" gain_right="136"/>
-        <band_optimizer frequency="3000" gain_left="152" gain_right="148"/>
-        <band_optimizer frequency="3750" gain_left="76" gain_right="74"/>
-        <band_optimizer frequency="4688" gain_left="74" gain_right="72"/>
-        <band_optimizer frequency="5813" gain_left="72" gain_right="74"/>
-        <band_optimizer frequency="7125" gain_left="74" gain_right="76"/>
-        <band_optimizer frequency="9000" gain_left="136" gain_right="125"/>
-        <band_optimizer frequency="11250" gain_left="150" gain_right="136"/>
-        <band_optimizer frequency="13875" gain_left="168" gain_right="150"/>
-        <band_optimizer frequency="19688" gain_left="188" gain_right="168"/>
+        <band_optimizer frequency="47" gain_left="72" gain_right="168"/>
+        <band_optimizer frequency="141" gain_left="88" gain_right="120"/>
+        <band_optimizer frequency="234" gain_left="56" gain_right="65"/>
+        <band_optimizer frequency="328" gain_left="24" gain_right="48"/>
+        <band_optimizer frequency="469" gain_left="32" gain_right="104"/>
+        <band_optimizer frequency="656" gain_left="48" gain_right="96"/>
+        <band_optimizer frequency="844" gain_left="16" gain_right="47"/>
+        <band_optimizer frequency="1031" gain_left="75" gain_right="72"/>
+        <band_optimizer frequency="1313" gain_left="88" gain_right="64"/>
+        <band_optimizer frequency="1688" gain_left="136" gain_right="96"/>
+        <band_optimizer frequency="2250" gain_left="182" gain_right="128"/>
+        <band_optimizer frequency="3000" gain_left="204" gain_right="88"/>
+        <band_optimizer frequency="3750" gain_left="96" gain_right="64"/>
+        <band_optimizer frequency="4688" gain_left="71" gain_right="12"/>
+        <band_optimizer frequency="5813" gain_left="128" gain_right="48"/>
+        <band_optimizer frequency="7125" gain_left="138" gain_right="72"/>
+        <band_optimizer frequency="9000" gain_left="159" gain_right="64"/>
+        <band_optimizer frequency="11250" gain_left="204" gain_right="88"/>
+        <band_optimizer frequency="13875" gain_left="150" gain_right="128"/>
+        <band_optimizer frequency="19688" gain_left="112" gain_right="96"/>
       </audio-optimizer-bands>
       <regulator-tuning>
         <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false"/>
@@ -1306,26 +1306,26 @@
     <device_id id="speaker_portrait" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="168" gain_right="168"/>
-        <band_optimizer frequency="141" gain_left="188" gain_right="188"/>
-        <band_optimizer frequency="234" gain_left="128" gain_right="136"/>
-        <band_optimizer frequency="328" gain_left="120" gain_right="128"/>
-        <band_optimizer frequency="469" gain_left="128" gain_right="136"/>
-        <band_optimizer frequency="656" gain_left="158" gain_right="158"/>
-        <band_optimizer frequency="844" gain_left="79" gain_right="79"/>
-        <band_optimizer frequency="1031" gain_left="125" gain_right="120"/>
-        <band_optimizer frequency="1313" gain_left="128" gain_right="125"/>
-        <band_optimizer frequency="1688" gain_left="136" gain_right="128"/>
-        <band_optimizer frequency="2250" gain_left="148" gain_right="136"/>
-        <band_optimizer frequency="3000" gain_left="152" gain_right="148"/>
-        <band_optimizer frequency="3750" gain_left="76" gain_right="74"/>
-        <band_optimizer frequency="4688" gain_left="74" gain_right="72"/>
-        <band_optimizer frequency="5813" gain_left="72" gain_right="74"/>
-        <band_optimizer frequency="7125" gain_left="74" gain_right="76"/>
-        <band_optimizer frequency="9000" gain_left="136" gain_right="125"/>
-        <band_optimizer frequency="11250" gain_left="150" gain_right="136"/>
-        <band_optimizer frequency="13875" gain_left="168" gain_right="150"/>
-        <band_optimizer frequency="19688" gain_left="188" gain_right="168"/>
+        <band_optimizer frequency="47" gain_left="72" gain_right="168"/>
+        <band_optimizer frequency="141" gain_left="88" gain_right="120"/>
+        <band_optimizer frequency="234" gain_left="56" gain_right="65"/>
+        <band_optimizer frequency="328" gain_left="24" gain_right="48"/>
+        <band_optimizer frequency="469" gain_left="32" gain_right="104"/>
+        <band_optimizer frequency="656" gain_left="48" gain_right="96"/>
+        <band_optimizer frequency="844" gain_left="16" gain_right="47"/>
+        <band_optimizer frequency="1031" gain_left="75" gain_right="72"/>
+        <band_optimizer frequency="1313" gain_left="88" gain_right="64"/>
+        <band_optimizer frequency="1688" gain_left="136" gain_right="96"/>
+        <band_optimizer frequency="2250" gain_left="182" gain_right="128"/>
+        <band_optimizer frequency="3000" gain_left="204" gain_right="88"/>
+        <band_optimizer frequency="3750" gain_left="96" gain_right="64"/>
+        <band_optimizer frequency="4688" gain_left="71" gain_right="12"/>
+        <band_optimizer frequency="5813" gain_left="128" gain_right="48"/>
+        <band_optimizer frequency="7125" gain_left="138" gain_right="72"/>
+        <band_optimizer frequency="9000" gain_left="159" gain_right="64"/>
+        <band_optimizer frequency="11250" gain_left="204" gain_right="88"/>
+        <band_optimizer frequency="13875" gain_left="150" gain_right="128"/>
+        <band_optimizer frequency="19688" gain_left="112" gain_right="96"/>
       </audio-optimizer-bands>
       <regulator-tuning>
         <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false"/>
