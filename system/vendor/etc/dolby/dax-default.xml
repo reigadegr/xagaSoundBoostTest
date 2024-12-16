@@ -57,26 +57,26 @@
   <preset id="ieq_warm" type="ieq">
     <data>
       <ieq-bands>
-        <band_ieq frequency="47" target="72"/>
-        <band_ieq frequency="141" target="88"/>
-        <band_ieq frequency="234" target="56"/>
-        <band_ieq frequency="328" target="24"/>
-        <band_ieq frequency="469" target="32"/>
-        <band_ieq frequency="656" target="48"/>
-        <band_ieq frequency="844" target="16"/>
-        <band_ieq frequency="1031" target="72"/>
-        <band_ieq frequency="1313" target="64"/>
-        <band_ieq frequency="1688" target="96"/>
-        <band_ieq frequency="2250" target="128"/>
-        <band_ieq frequency="3000" target="88"/>
-        <band_ieq frequency="3750" target="64"/>
-        <band_ieq frequency="4688" target="12"/>
-        <band_ieq frequency="5813" target="48"/>
-        <band_ieq frequency="7125" target="72"/>
-        <band_ieq frequency="9000" target="64"/>
-        <band_ieq frequency="11250" target="88"/>
+        <band_ieq frequency="47" target="128"/>
+        <band_ieq frequency="141" target="136"/>
+        <band_ieq frequency="234" target="96"/>
+        <band_ieq frequency="328" target="64"/>
+        <band_ieq frequency="469" target="56"/>
+        <band_ieq frequency="656" target="72"/>
+        <band_ieq frequency="844" target="48"/>
+        <band_ieq frequency="1031" target="52"/>
+        <band_ieq frequency="1313" target="88"/>
+        <band_ieq frequency="1688" target="128"/>
+        <band_ieq frequency="2250" target="136"/>
+        <band_ieq frequency="3000" target="96"/>
+        <band_ieq frequency="3750" target="24"/>
+        <band_ieq frequency="4688" target="16"/>
+        <band_ieq frequency="5813" target="32"/>
+        <band_ieq frequency="7125" target="76"/>
+        <band_ieq frequency="9000" target="92"/>
+        <band_ieq frequency="11250" target="96"/>
         <band_ieq frequency="13875" target="128"/>
-        <band_ieq frequency="19688" target="96"/>
+        <band_ieq frequency="19688" target="136"/>
       </ieq-bands>
     </data>
   </preset>
@@ -1219,8 +1219,8 @@
         <band_optimizer frequency="844" gain_left="16" gain_right="47"/>
         <band_optimizer frequency="1031" gain_left="75" gain_right="72"/>
         <band_optimizer frequency="1313" gain_left="88" gain_right="64"/>
-        <band_optimizer frequency="1688" gain_left="136" gain_right="96"/>
-        <band_optimizer frequency="2250" gain_left="182" gain_right="128"/>
+        <band_optimizer frequency="1688" gain_left="160" gain_right="120"/>
+        <band_optimizer frequency="2250" gain_left="218" gain_right="164"/>
         <band_optimizer frequency="3000" gain_left="204" gain_right="88"/>
         <band_optimizer frequency="3750" gain_left="96" gain_right="64"/>
         <band_optimizer frequency="4688" gain_left="71" gain_right="12"/>
@@ -1315,8 +1315,8 @@
         <band_optimizer frequency="844" gain_left="16" gain_right="47"/>
         <band_optimizer frequency="1031" gain_left="75" gain_right="72"/>
         <band_optimizer frequency="1313" gain_left="88" gain_right="64"/>
-        <band_optimizer frequency="1688" gain_left="136" gain_right="96"/>
-        <band_optimizer frequency="2250" gain_left="182" gain_right="128"/>
+        <band_optimizer frequency="1688" gain_left="160" gain_right="120"/>
+        <band_optimizer frequency="2250" gain_left="218" gain_right="164"/>
         <band_optimizer frequency="3000" gain_left="204" gain_right="88"/>
         <band_optimizer frequency="3750" gain_left="96" gain_right="64"/>
         <band_optimizer frequency="4688" gain_left="71" gain_right="12"/>
