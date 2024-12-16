@@ -50,3 +50,4 @@ persist.audio.format.float=true
 persist.vendor.audio.format.24bit=true
 persist.vendor.audio.format.32bit=true
 persist.vendor.audio.format.float=true
+ro.bluetooth.a2dp_offload.supported=false
