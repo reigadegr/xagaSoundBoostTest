@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="dolby_dax_switch" value="true" />
+    <boolean name="harman_kardon_enable" value="true" />
+    <boolean name="speaker_scenario_resume" value="true" />
+    <boolean name="audio_visual_screen_lock_enable" value="true" />
+    <boolean name="key_audio_visual_wake_lock" value="true" />
+</map>
